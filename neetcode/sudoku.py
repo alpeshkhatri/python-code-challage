@@ -1,5 +1,6 @@
 import random
 
+
 def generate_sudoku():
     grid = [[0] * 9 for _ in range(9)]
 
