@@ -6,7 +6,7 @@ logging.basicConfig(level=logging.DEBUG, format="%(levelname)s: %(message)s")
 
 
 def myFunction(args):
-    logging.debug("start of myFunction")
+    logging.debug(f"start of myFunction {args=}")
     return "ret"
 
 
